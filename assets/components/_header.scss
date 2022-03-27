@@ -1,0 +1,31 @@
+.header{
+    &__content{
+        display: flex;
+        justify-content: space-around;
+    }
+    &__left{
+        display: flex;
+        & ul{
+            display: flex;
+        }
+        & li{
+            @include font(16px, 700, #424551);
+            margin-right: 30px;
+        }
+    }
+    &__right{
+        display: flex;
+        align-items: center;
+        & a{
+            @include font(16px,700,#424551)
+        }
+    }
+    &__reg{
+        margin-left: 30px;
+        display: flex;
+        align-items: center;
+    }
+    &__asd{
+        display: block;
+    }
+}
