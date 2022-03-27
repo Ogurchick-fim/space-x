@@ -1,7 +1,7 @@
 .header{
     &__content{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     &__left{
         display: flex;
@@ -16,7 +16,7 @@
     &__right{
         display: flex;
         align-items: center;
-        & a{
+        & ol{
             @include font(16px,700,#424551)
         }
     }

@@ -5,8 +5,14 @@
 @import "../components/classes";
 @import "../components/header";
 @import "../components/footer";
+@import "../components/main";
 
 
-ul{
+ul li{
     list-style: none;
+}
+
+.container{
+    width: 1230px;
+    margin: 0 auto;
 }

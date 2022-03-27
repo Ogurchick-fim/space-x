@@ -6,3 +6,19 @@ button{
     border: none;
     @include font(16px,700,#fff)
 }
+
+a{
+    width: 132px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 8px;
+    border: none;
+    color: #FF3F3A;
+    border: 1px solid #FF3F3A;
+    @include font(16px,700,#FF3F3A);
+    text-decoration: none;
+    
+}
