@@ -1,0 +1,35 @@
+.who{
+    margin-top: 180px;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__right{
+        width: 390px;
+        & h3{
+            margin: 0;
+            @include font(16px,700,#1E212C);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        & h2{
+            margin: 0;
+            margin-top: 8px;
+            @include font(46px,900,#1E212C);
+        }
+    }
+    &__block{
+        
+        display: flex;
+        & p{
+            margin: 0;
+            margin-left: 16px;
+            margin-top: 12px;
+            @include font(16px,400,#1E212C);
+        }
+    }
+    &__blocks{
+        margin-top: 40px;
+        margin-bottom: 48px;
+    }
+}
